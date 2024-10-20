@@ -2,7 +2,7 @@
 ---
 generator_definitions:
   - name: widget_generator
-    file_path: "widget_generator.py"
+    file_path: "generators/widget_generator.py"
     targets: widgets
     query: widget_query
     class_name: WidgetGenerator
@@ -11,4 +11,4 @@ generator_definitions:
 
 queries:
   - name: widget_query
-    file_path: "widget_query.gql"
+    file_path: "generators/widget_query.gql"
