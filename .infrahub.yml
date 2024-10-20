@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://schema.infrahub.app/python-sdk/repository-config/latest.json
+---
+generator_definitions:
+  - name: widget_generator
+    file_path: "widget_generator.py"
+    targets: widgets
+    query: widget_query
+    class_name: WidgetGenerator
+    parameters:
+      name: "name__value"
+
+queries:
+  - name: widget_query
+    file_path: "widget_query.gql"
